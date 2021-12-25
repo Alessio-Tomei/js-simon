@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers-container {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+#numbers-container p {
+    margin-bottom: 20px;
+}
+
+#message span {
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+#result {
+    color: green;
+}
+
+#wrong {
+    color: red;
+}
+
+
